@@ -23,12 +23,12 @@ class Splash extends StatelessWidget {
     return SplashScreen(
       seconds: 50,
       navigateAfterSeconds: new SecondScreen(),
-      title: new Text('FA17_BSE_060',
+      title: new Text('Note-Taking App',
         style: new TextStyle(
             fontWeight: FontWeight.bold,
             fontSize: 20.0
         ),),
-      image: new Image.network('https://i0.wp.com/www.islamicinsights.com/wp-content/uploads/hijab_silouette.jpg?resize=780%2C470&ssl=1'),
+      image: new Image.network('https://www.pngitem.com/pimgs/m/25-256356_android-notes-app-icon-hd-png-download.png'),
       loadingText: Text("Loading"),
       photoSize: 100.0,
       loaderColor: Colors.pink,
