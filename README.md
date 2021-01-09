@@ -1,16 +1,28 @@
-# final_paper
+<img src='artworks/flt_keep.svg' width='150' alt="Flutter Keep">
 
-A new Flutter application.
+---
 
-## Getting Started
+[![Check Status][check-badge]][check-link]
+[![MIT][license-badge]][license]
 
-This project is a starting point for a Flutter application.
+This is a simplified [Google Keep] mobile app 'clone' built with [Flutter] + [Firebase]. For practicing prototyping and Flutter skills only.
 
-A few resources to get you started if this is your first Flutter project:
+If you love to, please read the [series of stories] on Medium to find out how to create an app like this from scratch.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Screenshots:
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+[![Flutter Keep demo](artworks/fltkeep_screenshots.jpg)](https://youtu.be/GXNXodzgbcM)
+
+Web app screenshots:
+
+[![web app screenshots](artworks/web-screenshots.jpg)][web app]
+
+[web app]: https://fltkeep.xinthink.com
+[Flutter]: https://flutter.dev
+[Firebase]: https://firebase.google.com/
+[Google Keep]: https://www.google.com/keep/
+[check-badge]: https://github.com/xinthink/flutter-keep/workflows/check/badge.svg
+[check-link]: https://github.com/xinthink/flutter-keep/actions?query=workflow%3Acheck
+[license-badge]: https://img.shields.io/github/license/xinthink/flutter-keep
+[license]: https://github.com/xinthink/flutter-keep/blob/master/COPYING
+[series of stories]: https://medium.com/flutter-community/build-a-note-taking-app-with-flutter-firebase-part-i-53816e7a3788
