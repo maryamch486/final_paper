@@ -23,6 +23,7 @@ class _LoginScreenState extends State<LoginScreen> {
   String _errorMessage;
   bool _useEmailSignIn = false;
 
+
   @override
   void dispose() {
     _emailController.dispose();

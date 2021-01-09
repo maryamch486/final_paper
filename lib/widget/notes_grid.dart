@@ -25,6 +25,7 @@ class NotesGrid extends StatelessWidget {
     onTap: onTap,
   );
 
+
   @override
   Widget build(BuildContext context) => SliverPadding(
     padding: const EdgeInsets.symmetric(horizontal: 10),
