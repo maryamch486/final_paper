@@ -225,6 +225,7 @@ class _NoteEditorState extends State<NoteEditor> with CommandHandler {
     }
   }
 
+
   /// Callback before the user leave the editor.
   Future<bool> _onPop(String uid) {
     if (_isDirty && (_note.id != null || _note.isNotEmpty)) {

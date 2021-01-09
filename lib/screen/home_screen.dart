@@ -17,6 +17,7 @@ class HomeScreen extends StatefulWidget {
   State<StatefulWidget> createState() => _HomeScreenState();
 }
 
+
 /// [State] of [HomeScreen].
 class _HomeScreenState extends State<HomeScreen> with CommandHandler {
   final _scaffoldKey = GlobalKey<ScaffoldState>();
