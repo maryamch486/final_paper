@@ -41,7 +41,7 @@ class SecondScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title:Text("Note Keeping")),
       body: Center(
-          child:Text("Home page",textScaleFactor: 2,)
+          child:Text("Home page",textScaleFactor: 3,)
       ),
     );
   }
